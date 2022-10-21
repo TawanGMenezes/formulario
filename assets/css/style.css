@@ -4,14 +4,23 @@
 body{
   padding: 0;
   margin: 0;
+  color:#ffffff;
+  display: flex;
   background-image: url('../images/bodyback.jpg');
-  
-  background-size: cover;
+  background-size:cover;
+  background-position:center;
+  display: flex;
+  flex-direction: column;
+
 }
+
 
 .main{
   display: flex;
+
   justify-content: center;
+  /* background-color: aquamarine */
+
 }
 .main_left{
   display: flex;
@@ -20,31 +29,111 @@ body{
 }
 .main_right{
   width: 1200px;
+  height: 500px;
+
 
   
 }
 .container_form{
-  background-color: green;
+  margin-left:150px;
+  /* background-color: green; */
   display: flex;
   flex-direction: column;
-  padding-top: 100px;
+  margin-top: 100px;
   width: 1200px;
   
 }
 .container_form_titles{
-  background-color: yellow;
+  /* background-color: yellow; */
   display: flex;
   flex-direction: column;
+  
   
 }
 .container_form_titles .title1{
   font-size: 70px;
 }
 .container_form_titles .title2{
+  padding-bottom: 20px;
   font-size: 20px;
   padding-top: 25px;
 }
 
 .form{
-  background-color: brown;
+  /* display: flex; */
+  /* background-color: brown; */
+  padding-top: 20px;
+  /* flex-direction: column ; */
+  width: 1000px;
+}
+
+.form table {
+  /* background-color: aquamarine; */
+  width: 780px;
+
+}
+.form table td{
+  /* background-color: gray; */
+  width: 50px;
+  height: 30px;
+} 
+
+.nome,
+.email,
+.cel,
+.assunto,
+.menssagem,
+.verificacao{
+  /* background-color: black; */
+}
+/* text-shadow: 0px 1px 0px #555555;
+border-bottom: 1px solid #ffffff; */
+
+
+.submit_area{
+  /* background-color: blue; */
+  width: 780px;
+  border-top: 1px solid #ffffff;
+}
+.bt_submit{
+  padding-top: 20px;
+ 
+}
+
+.bt_submit input{
+  border: 1px solid #ffffff;
+  background-color: #002023;
+  color: #ffffff;
+  width: 130px;
+  height: 35px;
+}
+
+.bt_submit input:hover{
+  background-color: #008896;
+}
+
+footer{
+  justify-content: center;
+  
+  flex: 1;
+  display:flex ;
+  /* width: 1000px;
+  height: 200px; */
+  /* background-color: chartreuse; */
+}
+
+#rdpe{
+  padding: 20px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  color: #2d2d2d;
+  border-top: 1px solid #2d2d2d;
+
+
+}
+#rdpe a{
+  font-weight: normal;
+  text-decoration: none;
+  color: #ffffff;
 }
