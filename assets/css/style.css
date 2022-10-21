@@ -12,16 +12,11 @@ body{
   display: flex;
   flex-direction: column;
   min-height: 760px;
-
 }
-
-
 .main{
   display: flex;
 flex: 1;
   justify-content: center;
-  /* background-color: aquamarine */
-
 }
 .main_left{
   display: flex;
@@ -31,25 +26,17 @@ flex: 1;
 .main_right{
   width: 1200px;
   height: 500px;
-
-
-  
 }
 .container_form{
   margin-left:150px;
-  /* background-color: green; */
   display: flex;
   flex-direction: column;
   margin-top: 100px;
   max-width: 1200px;
-  
 }
 .container_form_titles{
-  /* background-color: yellow; */
   display: flex;
   flex-direction: column;
-  
-  
 }
 .container_form_titles .title1{
   font-size: 70px;
@@ -59,47 +46,24 @@ flex: 1;
   font-size: 20px;
   padding-top: 25px;
 }
-
 .form{
-  /* display: flex; */
-  /* background-color: brown; */
   padding-top: 20px;
-  /* flex-direction: column ; */
   max-width: 1000px;
 }
-
 .form table {
-  /* background-color: aquamarine; */
   width: 780px;
-
 }
 .form table td{
-  /* background-color: gray; */
   width: 50px;
   height: 30px;
 } 
-
-.nome,
-.email,
-.cel,
-.assunto,
-.menssagem,
-.verificacao{
-  /* background-color: black; */
-}
-/* text-shadow: 0px 1px 0px #555555;
-border-bottom: 1px solid #ffffff; */
-
-
 .submit_area{
-  /* background-color: blue; */
   width: 780px;
   border-top: 1px solid #ffffff;
 }
 .bt_submit{
   padding-top: 20px;
 }
-
 .bt_submit input{
   border: 1px solid #ffffff;
   background-color: #008896;
@@ -107,21 +71,14 @@ border-bottom: 1px solid #ffffff; */
   width: 130px;
   height: 35px;
 }
-
 .bt_submit input:hover{
   background-color:#002023 ;
 }
-
 footer{
-  justify-content: center;
-  
+  justify-content: center; 
   flex: 1;
   display:flex ;
-  /* width: 1000px;
-  height: 200px; */
-  /* background-color: chartreuse; */
 }
-
 #rdpe{
   padding: 20px;
   text-align: center;
@@ -129,8 +86,6 @@ footer{
   font-weight: bold;
   color: #2d2d2d;
   border-top: 1px solid #2d2d2d;
-
-
 }
 #rdpe a{
   font-weight: normal;
@@ -140,28 +95,22 @@ footer{
 @media (max-width:900px){
   .container_form{
     padding: 50px;
-   width: 200px;
+    width: 200px;
     margin-left: 0;
   }
-
   .container_form_titles{
     width: 500px;
   }
   .container_form_titles .title1{
     font-size: 40px;
   }
-
- 
- .main_right{
-  width: 600px;
- }
-
- .submit_area{
-  width: 655px;
+  .main_right{
+    width: 600px;
+  }
+  .submit_area{
+    width: 655px;
+  }
 }
-
-}
-
 @media (max-width:715px){
   .main{
     justify-content: center;
@@ -173,53 +122,47 @@ footer{
     width:400px;
     flex:1;
   }
-.form form{
-  font-size: 14px;
-}
-.form td{
-  width:50px;
-}
+  .form form{
+    font-size: 14px;
+  }
+  .form td{
+    width:50px;
+  }
   .container_form{
     padding: 0px;
   }
-
-.form #nome,#sobrenome{
-  width: 100px;
-}
-
-.main_left{
-  margin-left: 40px;
-  justify-content: left;
-}
-.main_right{
-  width: 200px;
-}
-.container_form_titles{
-  width: 300px;
-
-}
-
-#simwpp,#naowpp{
+  .form #nome,#sobrenome{
+    width: 100px;
+  }
+  .main_left{
+    margin-left: 40px;
+    justify-content: left;
+  }
+  .main_right{
+    width: 200px;
+  }
+  .container_form_titles{
+    width: 300px;
+  }
+  #simwpp,#naowpp{
   width: 15px;
-}
-
-.container_form_titles .title1{
-  font-size: 30px;
-  padding-left: 40px;
-  width:350px ;
-  box-sizing: border-box;
-  
-}
-
-.container_form_titles .title2{
-  font-size: 15px;
-  width: 350px;
-  padding-left: 30px;
-}
-.text_cel input{
-  width: 50px;
-}
-.submit_area{
-  width: 400px;
-}
+  }
+  .container_form_titles .title1{
+    font-size: 30px;
+    padding-left: 40px;
+    width:350px ;
+    box-sizing: border-box;
+    
+  }
+  .container_form_titles .title2{
+    font-size: 15px;
+    width: 350px;
+    padding-left: 30px;
+  }
+  .text_cel input{
+    width: 50px;
+  }
+  .submit_area{
+    width: 400px;
+  }
 }
