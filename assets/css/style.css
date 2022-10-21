@@ -18,7 +18,7 @@ body{
 
 .main{
   display: flex;
-
+flex: 1;
   justify-content: center;
   /* background-color: aquamarine */
 
@@ -41,7 +41,7 @@ body{
   display: flex;
   flex-direction: column;
   margin-top: 100px;
-  width: 1200px;
+  max-width: 1200px;
   
 }
 .container_form_titles{
@@ -65,7 +65,7 @@ body{
   /* background-color: brown; */
   padding-top: 20px;
   /* flex-direction: column ; */
-  width: 1000px;
+  max-width: 1000px;
 }
 
 .form table {
@@ -98,7 +98,6 @@ border-bottom: 1px solid #ffffff; */
 }
 .bt_submit{
   padding-top: 20px;
- 
 }
 
 .bt_submit input{
@@ -137,4 +136,90 @@ footer{
   font-weight: normal;
   text-decoration: none;
   color: #ffffff;
+}
+@media (max-width:900px){
+  .container_form{
+    padding: 50px;
+   width: 200px;
+    margin-left: 0;
+  }
+
+  .container_form_titles{
+    width: 500px;
+  }
+  .container_form_titles .title1{
+    font-size: 40px;
+  }
+
+ 
+ .main_right{
+  width: 600px;
+ }
+
+ .submit_area{
+  width: 655px;
+}
+
+}
+
+@media (max-width:715px){
+  .main{
+    justify-content: center;
+  }
+  .form{
+    width: 50px;
+  }
+  .form table{
+    width:400px;
+    flex:1;
+  }
+.form form{
+  font-size: 14px;
+}
+.form td{
+  width:50px;
+}
+  .container_form{
+    padding: 0px;
+  }
+
+.form #nome,#sobrenome{
+  width: 100px;
+}
+
+.main_left{
+  margin-left: 40px;
+  justify-content: left;
+}
+.main_right{
+  width: 200px;
+}
+.container_form_titles{
+  width: 300px;
+
+}
+
+#simwpp,#naowpp{
+  width: 15px;
+}
+
+.container_form_titles .title1{
+  font-size: 30px;
+  padding-left: 40px;
+  width:350px ;
+  box-sizing: border-box;
+  
+}
+
+.container_form_titles .title2{
+  font-size: 15px;
+  width: 350px;
+  padding-left: 30px;
+}
+.text_cel input{
+  width: 50px;
+}
+.submit_area{
+  width: 400px;
+}
 }
