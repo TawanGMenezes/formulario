@@ -102,14 +102,14 @@ border-bottom: 1px solid #ffffff; */
 
 .bt_submit input{
   border: 1px solid #ffffff;
-  background-color: #002023;
+  background-color: #008896;
   color: #ffffff;
   width: 130px;
   height: 35px;
 }
 
 .bt_submit input:hover{
-  background-color: #008896;
+  background-color:#002023 ;
 }
 
 footer{
