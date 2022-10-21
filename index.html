@@ -13,51 +13,82 @@
   <div class="main">
     <div class="main_left">
       <div class="container_form">
-        <form action="">
-          <table>
-            <tr>
-              <td>
-                <label for="nome">Nome: </label>
-              </td>
-              <td>
-                <input type="text" name="nome" id="nome" placeholder="Nome">
-                <input type="text" name="sobrenome" id="sobrenome" placeholder="Sobrenome">
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <label for="email">Email: </label>
-              </td>
-              <td>
-                <input type="email" name="email" id="email" placeholder="Exemplo@dominio.com">
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <label for="cel">Tel-Celular: </label>
-              </td>
-              <td>
-                <input type="number" name="cel" id="cel"  placeholder="Celular">
-                <label for="wpp">WhatsApp :</label>
-                <input type="radio" name="wpp" id="wpp">
-                <input type="radio" name="wpp" id="wpp">
-                
-              </td>
-              <td>
-                
-              </td>
-            </tr>
-            <tr>
-              
-            </tr>
-            <tr>
-
-            </tr>
-            <tr>
-
-            </tr>
-          </table>
-        </form>
+        <div class="container_form_titles">
+          <div class="title1">
+            Formulário de Contato
+          </div>
+          <div class="title2">
+            Por favor digite os dados que iremos responder a sua solicitação o mais rapido possivel.
+          </div>
+        </div>
+        <div class="form">
+          <form action="">
+            <table>
+              <tr>
+                <td>
+                  <label for="nome">Nome: </label>
+                </td>
+                <td>
+                  <input type="text" name="nome" id="nome" placeholder="Nome">
+                  <input type="text" name="sobrenome" id="sobrenome" placeholder="Sobrenome">
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <label for="email">Email: </label>
+                </td>
+                <td>
+                  <input type="email" name="email" id="email" placeholder="Exemplo@dominio.com">
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <label for="cel">Tel-Celular: </label>
+                </td>
+                <td>
+                  <input type="number" name="cel" id="cel" placeholder="Celular">
+                  <label for="wpp">WhatsApp :</label>
+                  Sim:
+                  <input type="radio" name="wpp" id="simwpp">
+                  Não:
+                  <input type="radio" name="wpp" id="naowpp">
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <label for="assunto">Assunto:</label>
+                </td>
+                <td>
+                  <select name="assunto" id="assunto">
+                    <option value="null"></option>
+                    <option value="rec">Reclamação</option>
+                    <option value="sug">Sugetão</option>
+                    <option value="comp">Compras</option>
+                    <option value="pro">Produtos</option>
+                    <option value="out">Outros</option>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <label for="menssagem">Menssagem: </label>
+                </td>
+                <td>
+                  <textarea name="menssagem" id="menssagem"></textarea>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <label for="verificacao">Verificação: </label>
+                </td>
+              </tr>
+            </table>
+            <div>
+              <div>
+                <input type="submit" value="Enviar">
+              </div>
+            </div>
+          </form>
+        </div>
       </div>
     </div>
     <div class="main_right">

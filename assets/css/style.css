@@ -4,7 +4,9 @@
 body{
   padding: 0;
   margin: 0;
-  background-color: aqua;
+  background-image: url('../images/bodyback.jpg');
+  
+  background-size: cover;
 }
 
 .main{
@@ -13,19 +15,36 @@ body{
 }
 .main_left{
   display: flex;
-  background-color: red;
   flex:1;
   justify-content: right;
 }
 .main_right{
   width: 1200px;
-  background-color: black;
+
   
 }
 .container_form{
-  
-  background-color: blueviolet;
+  background-color: green;
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
   width: 1200px;
   
 }
+.container_form_titles{
+  background-color: yellow;
+  display: flex;
+  flex-direction: column;
+  
+}
+.container_form_titles .title1{
+  font-size: 70px;
+}
+.container_form_titles .title2{
+  font-size: 20px;
+  padding-top: 25px;
+}
 
+.form{
+  background-color: brown;
+}
